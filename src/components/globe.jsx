@@ -1,32 +1,58 @@
 import IconCloud from "./ui/icon-cloud";
 
 const slugs = [
-  "javascript",
-  "java",
-  "react",
-
-  "android",
+  // Web & UI
   "html5",
   "css3",
+  "react",
+  "tailwindcss",
+  "figma",
+
+  // Backend & APIs
+  "python",
+  "fastapi",
   "nodedotjs",
   "express",
-  "nextdotjs",
-  "amazonaws",
+
+  // Databases
+  "mongodb",
   "postgresql",
   "firebase",
+
+  // AI / ML / NLP / LLM / DL
+  "openai",
+  "huggingface",
+  "jupyter",
+  "pytorch",
+  "tensorflow",
+
+  // DevOps & Deployment
   "vercel",
-  "testinglibrary",
-  "cypress",
+  "heroku",
+  "amazonaws",
   "docker",
+
+  // Dev Tools
   "git",
   "github",
   "gitlab",
-  "figma",
+  "visualstudiocode",
+
+  // Automation / Workflow
+  "n8n",
+  "langchain",
+  "typesense",
+
+  // Bonus: Programming & General Tools
+  "javascript",
+  "python",
+  "c",
+  "c++"
 ];
 
 function IconCloudDemo() {
   return (
-    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg  px-20 pb-20 pt-8 bg-transparent">
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg px-20 pb-20 pt-8 bg-transparent">
       <IconCloud iconSlugs={slugs} />
     </div>
   );
