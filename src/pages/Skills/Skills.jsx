@@ -1,30 +1,36 @@
-// Updated SkillsSection component for Priya Rathor with personalized skill set
+// Updated SkillsSection component for Priya Rathor with extended personalized skill set
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { Code2, Database, Cpu, Cloud, MonitorSmartphone } from "lucide-react";
 import {
   FaPython,
   FaAws,
   FaDocker,
   FaGitAlt,
   FaLinux,
+  FaFigma,
 } from "react-icons/fa";
 import {
   SiFastapi,
   SiMongodb,
   SiOpenai,
   SiLangchain,
-  SiNextdotjs,
-  SiReact,
-  SiTypescript,
   SiTailwindcss,
   SiVercel,
   SiPostgresql,
+  SiHuggingface,
+  SiHeroku,
+  SiJupyter,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 import { BsStars } from "react-icons/bs";
 import { GiArtificialHive } from "react-icons/gi";
+import { TbBrain } from "react-icons/tb";
+import { MdOutlineSchema } from "react-icons/md";
+import { BiNetworkChart } from "react-icons/bi";
 
 const SkillCard = ({ icon: Icon, title, skills, color }) => (
   <Card className="group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20">
@@ -62,13 +68,21 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       icon: GiArtificialHive,
-      title: "AI & LLM Tools",
+      title: "AI, LLM & GenAI Tools",
       color: "text-yellow-400",
       skills: [
         { name: "LangChain", icon: <SiLangchain className="w-4 h-4 text-white" /> },
         { name: "LangGraph", icon: <BsStars className="w-4 h-4 text-purple-400" /> },
         { name: "OpenAI", icon: <SiOpenai className="w-4 h-4 text-green-300" /> },
+        { name: "Hugging Face", icon: <SiHuggingface className="w-4 h-4 text-yellow-300" /> },
         { name: "RAG Systems", icon: <GiArtificialHive className="w-4 h-4 text-amber-400" /> },
+        { name: "CrewAI", icon: <BiNetworkChart className="w-4 h-4 text-blue-300" /> },
+        { name: "N8N", icon: <BiNetworkChart className="w-4 h-4 text-orange-300" /> },
+        { name: "LLMs", icon: <TbBrain className="w-4 h-4 text-pink-400" /> },
+        { name: "GenAI", icon: <GiArtificialHive className="w-4 h-4 text-lime-300" /> },
+        { name: "DataStax", icon: <MdOutlineSchema className="w-4 h-4 text-teal-300" /> },
+        { name: "NLP", icon: <TbBrain className="w-4 h-4 text-indigo-400" /> },
+        { name: "ML", icon: <TbBrain className="w-4 h-4 text-cyan-300" /> },
       ],
     },
     {
@@ -76,10 +90,12 @@ const SkillsSection = () => {
       title: "Web Development",
       color: "text-blue-400",
       skills: [
-        { name: "React", icon: <SiReact className="w-4 h-4 text-[#61DAFB]" /> },
-        { name: "Next.js", icon: <SiNextdotjs className="w-4 h-4 text-white" /> },
-        { name: "TypeScript", icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" /> },
+        { name: "HTML", icon: <SiHtml5 className="w-4 h-4 text-orange-500" /> },
+        { name: "CSS", icon: <SiCss3 className="w-4 h-4 text-blue-500" /> },
+        { name: "React", icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" /> },
+        { name: "Responsive UI", icon: <MonitorSmartphone className="w-4 h-4 text-white" /> },
+        { name: "Figma", icon: <FaFigma className="w-4 h-4 text-pink-500" /> },
       ],
     },
     {
@@ -90,7 +106,8 @@ const SkillsSection = () => {
         { name: "FastAPI", icon: <SiFastapi className="w-4 h-4 text-teal-300" /> },
         { name: "Python", icon: <FaPython className="w-4 h-4 text-[#3776AB]" /> },
         { name: "MongoDB", icon: <SiMongodb className="w-4 h-4 text-[#47A248]" /> },
-        { name: "PostgreSQL", icon: <SiPostgresql className="w-4 h-4 text-[#336791]" /> },
+        { name: "SQL", icon: <MdOutlineSchema className="w-4 h-4 text-blue-300" /> },
+        { name: "Jupyter", icon: <SiJupyter className="w-4 h-4 text-orange-400" /> },
       ],
     },
     {
@@ -113,6 +130,7 @@ const SkillsSection = () => {
         { name: "GitHub", icon: <FaGitAlt className="w-4 h-4 text-white" /> },
         { name: "AWS EC2", icon: <FaAws className="w-4 h-4 text-yellow-300" /> },
         { name: "S3 / RDS", icon: <FaAws className="w-4 h-4 text-blue-300" /> },
+        { name: "Heroku", icon: <SiHeroku className="w-4 h-4 text-purple-400" /> },
       ],
     },
   ];
