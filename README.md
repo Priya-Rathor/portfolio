@@ -129,7 +129,7 @@ portfolio/
 
 ### Steps
 ```bash
-git clone https://github.com/seraprogrammer/portfolio.git
+gh repo clone Priya-Rathor/portfolio
 cd portfolio
 npm install
 npm run dev
