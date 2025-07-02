@@ -1,4 +1,4 @@
-import HeroImg from "@/assets/images/hero.jpg";
+// import HeroImg from "@/assets/images/hero.jpg";
 import OlovaLogo from "@/assets/images/olova.png"; // Optional: Replace or remove if not needed
 
 export default function About() {
@@ -7,13 +7,13 @@ export default function About() {
       <section id="about" className="py-16 md:py-32 text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
-            AI Developer, Full Stack Engineer, Creator
+            Generative AI Engineer · Machine Learning
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
             <div className="relative mb-6 sm:mb-0">
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
                 <img
-                  src={HeroImg}
+                  // src={HeroImg}
                   className="rounded-[15px] shadow block"
                   alt="Priya Rathor"
                   width={1207}

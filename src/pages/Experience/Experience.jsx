@@ -46,27 +46,28 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Cloud,
-      title: "Python Developer",
+      title: "Python Developer(Gen AI)",
       company: "OMR India Outsources Pvt. Ltd.",
-      period: "2022 - 2023",
-      description:
-        "Built scalable backend systems using FastAPI, OpenAI, and MongoDB for AI/NLP projects like automated answer comparison and text classification.",
+      period: "Nov/2024 - Present",
+     description:
+        "Designed AI tools using LangChain, LangGraph, and Tavily. Delivered RAG pipelines, FastAPI-based chatbots, and deployed on AWS EC2/S3.",
     },
     {
       icon: Layers,
       title: "LLM Application Engineer",
       company: "TechEunoia International Pvt. Ltd.",
-      period: "2023 - Present",
-      description:
-        "Designed AI tools using LangChain, LangGraph, and Tavily. Delivered RAG pipelines, FastAPI-based chatbots, and deployed on AWS EC2/S3.",
+      period: "may/2024 -oct/2024 ",
+       description:
+        "Built scalable backend systems using FastAPI, OpenAI, and MongoDB for AI/NLP projects like automated answer comparison and text classification.",
+      
     },
     {
       icon: Code2,
-      title: "Open Source Contributor",
-      company: "GitHub / Community Projects",
-      period: "2023 - Present",
+      title: "Freelancing",
+      company: "Upwork / Direct Clients",
+      period: "2024 - Present",
       description:
-        "Contributed to open-source GenAI tools and frameworks, focusing on LangChain templates, production-ready FastAPI setups, and developer documentation.",
+        "Worked on freelance AI/ML and full-stack projects, delivering custom chatbot solutions, FastAPI backends, MongoDB integrations, and LangChain workflows for clients globally.",
     },
   ];
 

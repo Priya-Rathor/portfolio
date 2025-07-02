@@ -5,45 +5,50 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
-    description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
-  },
+  title: "🧠 Business Doctor ",
+  description:
+     "A powerful, production-ready chatbot built using FastAPI, LangGraph, and LangChain. It enables intelligent business planning through dynamic multi-turn conversations, real-time streaming with Server-Sent Events (SSE), and memory summarization using LLMs. The bot guides users through tailored workflows such as executive summaries, market analysis, financial projections, and marketing strategies. It integrates external tools like Tavily for web search and features a clean modular folder structure for easy scalability and maintainability. Designed to assist entrepreneurs, startups, and business users with structured, AI-driven guidance.",
+  src: "rock.jpg",
+  link: "https://i.postimg.cc/J7T03c99/Screenshot-2025-07-02-134909.png",
+  color: "#5196fd",
+  githubLink: "https://github.com/Priya-Rathor/AIBusinessDoctors",
+  liveLink: "https://businessdoctors.sg/",
+},
+
+  
+
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
-    description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
-  },
+  title: "🎯 Onscreen Marketing System – AI-Powered Learning & Evaluation",
+  description:
+    "Integrated OpenAI API to dynamically generate and evaluate both subjective and objective questions across diverse subjects. Built advanced conversational workflows using LangGraph to control question logic and session flow. Employed Tavily for intelligent retrieval and context enrichment to simulate real-world assessments. Designed real-time scoring and AI-driven feedback to personalize evaluation. Ensured seamless backend-AI integration for scalable learning, and deployed the full solution on AWS EC2 for high availability.",
+  src: "rock.jpg",
+  link: "https://i.postimg.cc/xT60Vf0h/Screenshot-2025-07-02-140532.png",
+  color: "#5196fd",
+  githubLink: "https://github.com/Priya-Rathor/Onscreen-Marketing-System/tree/main", // (example)
+  liveLink: "https://is10live.com/", // Add if hosted
+}
+,
+
+{
+  title: "📚 AI_INNOV_JAM - LLM-Powered Student Evaluation",
+  description:
+    "A powerful FastAPI-based backend that evaluates student answers using GPT-4, Gemini, and Groq Mixtral. It auto-scores based on prompt-based logic, returns one-line feedback, validates API keys, and can extract Q&A from raw text. Designed for educational use cases, the system supports dynamic scoring logic, provider switching, and custom temperature control. It’s built with a modular folder structure, ready for database integration and frontend expansion.",
+  src: "rock.jpg",
+  link: "https://i.postimg.cc/fWXts0FF/Screenshot-2025-01-17-103016.png",
+  color: "#5196fd",
+  githubLink: "https://github.com/Priya-Rathor/AI_INNOV_JAM",
+  liveLink: "", // You can add a deployed URL if available
+},
   {
-    title: "\ud83d\ude80 CodeWhisperer",
-    description:
-      "\ud83d\ude80 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! \ud83d\udcbb\u2728",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori \ud83d\udd25",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! \ud83d\udcbb\u2728",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
+  title: "🛒 MegaGrocery – SmartList-Powered E-commerce Platform",
+  description:
+    "MegaGrocery is a full-featured e-commerce platform built with React and Node.js, featuring a unique SmartList system. Users can create reusable daily, weekly, and monthly shopping lists, streamlining repeat purchases and saving time. The site includes secure authentication, real-time cart updates, product recommendations, infinite scroll, customer reviews, image storage via Cloudinary or AWS S3, and seamless checkout with discount support. SmartList boosts personalization and convenience, making the platform smarter than traditional online stores.",
+  src: "rock.jpg", // Replace with screenshot link or actual image path
+  link: "https://i.postimg.cc/rwWjBmTN/Screenshot-2025-07-02-141520.png", // Replace with actual screenshot if available
+  color: "#70c05b",
+  githubLink: "https://github.com/Priya-Rathor/MegaGrocery-Ecommerce-website?tab=readme-ov-file", // Change if repo URL is different
+  liveLink: "https://front-end-mega-grocery.vercel.app/", // Add deployed link if hosted
+}
 ];
 
 export default function Projects() {

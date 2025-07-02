@@ -14,25 +14,27 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Bachelor of Technology (B.Tech) in Computer Science",
-      school: "AKTU University",
+      degree: "Master of Computer Applications (MCA)",
+      school: "A.P.J. Abdul Kalam Technical University",
       mascot: "🎓",
-      year: "2018 - 2022",
-      achievements: ["GPA: 8.2 CGPA", "Major: Computer Science"],
-      skills: ["Python", "Machine Learning", "Data Structures", "Database Systems"],
+      year: "2022 - 2024",
+      achievements: ["GPA: 7.8 CGPA", "Major: Computer Science"],
+      skills: ["Python", "JavaScript", "Data Structures", "Database Systems"],
       description:
         "Built a strong foundation in computer science fundamentals and software engineering. Focused on backend development, algorithms, and systems design.",
     },
     {
-      degree: "Mastering Generative AI (Certification)",
-      school: "Microsoft & LinkedIn Learning",
-      mascot: "🧠",
-      year: "2023",
-      achievements: ["Certified by Microsoft", "Specialized in LLMs"],
-      skills: ["LangChain", "LLMs", "NLP", "Prompt Engineering"],
+      degree: "Bachelor of Science in Mathematics",
+      school: "Dr Bhimrao Ambedkar University, Agra",
+      mascot: "📐",
+      year: "2019 - 2022",
+      achievements: ["Completed core courses in Pure & Applied Mathematics"],
+      skills: ["Calculus", "Linear Algebra", "Statistics", "Problem Solving"],
       description:
-        "Learned to apply modern LLM frameworks for building intelligent applications. Specialized in real-world use cases of generative AI.",
+    "Gained a solid understanding of mathematical principles and analytical techniques, forming a strong base for logical thinking and future work in technology.",
     },
+
+
   ];
 
   const containerVariants = {
