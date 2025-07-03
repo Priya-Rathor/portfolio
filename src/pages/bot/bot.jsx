@@ -20,6 +20,7 @@ const ChatBot = () => {
     setMessages((prev) => [...prev, newMessage]);
     setInput("");
 
+    
     try {
       const response = await fetch("/api/chat?message=" + encodeURIComponent(input));
       const reader = response.body.getReader();
@@ -36,7 +37,7 @@ const ChatBot = () => {
         ]);
       }
 
-      
+
       setMessages((prev) => [
         ...prev.filter((m) => m.sender !== "stream"),
         { sender: "bot", text: aiMessage },
