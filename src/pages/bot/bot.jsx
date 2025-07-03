@@ -36,6 +36,7 @@ const ChatBot = () => {
         ]);
       }
 
+      
       setMessages((prev) => [
         ...prev.filter((m) => m.sender !== "stream"),
         { sender: "bot", text: aiMessage },
@@ -45,7 +46,7 @@ const ChatBot = () => {
     }
   };
 
-  
+
   return (
     <div>
       hello
