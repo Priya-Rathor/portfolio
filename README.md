@@ -17,14 +17,14 @@ Welcome to my **portfolio website**! This site showcases my AI/ML skills, profes
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+![Portfolio Demo](https://i.postimg.cc/281W18HR/Screenshot-2025-07-02-150144.png)
 
 ---
 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Live Demo**](https://priyarathorportfolio.vercel.app/)
 
 ---
 
@@ -129,7 +129,7 @@ portfolio/
 
 ### Steps
 ```bash
-git clone https://github.com/seraprogrammer/portfolio.git
+gh repo clone Priya-Rathor/portfolio
 cd portfolio
 npm install
 npm run dev
