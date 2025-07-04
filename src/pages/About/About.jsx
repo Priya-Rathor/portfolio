@@ -13,7 +13,7 @@ export default function About() {
             <div className="relative mb-6 sm:mb-0">
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
                 <img
-                  // src={HeroImg}
+                  src="https://i.postimg.cc/vmtpQnBt/Screenshot-2025-07-04-134935.png"
                   className="rounded-[15px] shadow block"
                   alt="Priya Rathor"
                   width={1207}
