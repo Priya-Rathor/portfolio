@@ -9,6 +9,10 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 
+
+
+
+
 const EducationSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
