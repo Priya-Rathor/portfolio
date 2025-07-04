@@ -7,7 +7,7 @@ import Header from "./pages/Header/Header";
 import Hero from "./pages/Hero/Hero";
 import Skills from "./pages/Skills/Skills";
 import Education from "./pages/Education/Education";
-import Blog from "./pages/Blog/Blog";
+import Blog from "./pages/blog/blog";
 
 import { Route, Routes } from "react-router-dom";
 
