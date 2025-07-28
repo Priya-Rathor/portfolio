@@ -12,7 +12,7 @@ const projects = [
   link: "https://i.postimg.cc/J7T03c99/Screenshot-2025-07-02-134909.png",
   color: "#5196fd",
   githubLink: "https://github.com/Priya-Rathor/AIBusinessDoctors",
-  liveLink: "https://businessdoctors.sg/",
+  liveLink: "https://businessdoctorclientfrontend.vercel.app/",
 },
 
   
@@ -37,7 +37,7 @@ const projects = [
   link: "https://i.postimg.cc/fWXts0FF/Screenshot-2025-01-17-103016.png",
   color: "#5196fd",
   githubLink: "https://github.com/Priya-Rathor/AI_INNOV_JAM",
-  liveLink: "", // You can add a deployed URL if available
+  liveLink: "https://assessmentor-frontend.vercel.app/", // You can add a deployed URL if available
 },
   {
   title: "🛒 MegaGrocery – SmartList-Powered E-commerce Platform",
