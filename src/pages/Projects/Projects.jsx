@@ -15,6 +15,17 @@ const projects = [
   liveLink: "https://businessdoctorclientfrontend.vercel.app/",
 },
 
+{
+  title: "📚 Book Recommender System – NLP + Vector Search Powered",
+  description:
+    "Built a smart book recommendation system that uses OpenAI embeddings to vectorize book summaries and user queries. Integrated Pinecone for fast semantic search across a large corpus of book data. Designed an intuitive search interface and used Streamlit to deploy the front-end. Enabled contextual recommendations using user input and content-based filtering, making book discovery personalized and intelligent.",
+  src: "rock.jpg", // You can update this image if needed
+  link: "https://i.postimg.cc/QdgLx3xs/Screenshot-2025-07-28-112117.png", // You can use a screenshot of your app
+  color: "#5196fd",
+  githubLink: "https://github.com/Priya-Rathor/BookRecommenderSystem",
+  liveLink: "https://bookrecommendersystem-l6s0.onrender.com/",
+}
+,
   
 
   {
