@@ -24,7 +24,7 @@ Welcome to my **portfolio website**! This site showcases my AI/ML skills, profes
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://priyarathorportfolio.vercel.app/)
+[**Live Demo**](https://portfolio-six-beige-xwwo4l4kee.vercel.app/)
 
 ---
 
