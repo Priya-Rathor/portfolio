@@ -27,7 +27,6 @@ const projects = [
 }
 ,
   
-
   {
   title: "🎯 Onscreen Marketing System – AI-Powered Learning & Evaluation",
   description:
@@ -40,16 +39,18 @@ const projects = [
 }
 ,
 
-{
+  {
   title: "📚 AI_INNOV_JAM - LLM-Powered Student Evaluation",
   description:
     "A powerful FastAPI-based backend that evaluates student answers using GPT-4, Gemini, and Groq Mixtral. It auto-scores based on prompt-based logic, returns one-line feedback, validates API keys, and can extract Q&A from raw text. Designed for educational use cases, the system supports dynamic scoring logic, provider switching, and custom temperature control. It’s built with a modular folder structure, ready for database integration and frontend expansion.",
   src: "rock.jpg",
   link: "https://i.postimg.cc/fWXts0FF/Screenshot-2025-01-17-103016.png",
   color: "#5196fd",
-  githubLink: "https://github.com/Priya-Rathor/AI_INNOV_JAM",
-  liveLink: "https://assessmentor-frontend.vercel.app/", // You can add a deployed URL if available
-},
+  githubLink: "https://github.com/Priya-Rathor/AI_INNOV_JAM", // (example)
+  liveLink: "ttps://assessmentor-frontend.vercel.app/", // Add if hosted
+}
+,
+
   {
   title: "🛒 MegaGrocery – SmartList-Powered E-commerce Platform",
   description:
