@@ -16,6 +16,16 @@ const projects = [
 },
 
 {
+  "title": "reddit_persona_analyzer",
+  "description": "A Reddit profile analysis tool built with FastAPI, LangGraph, and LangChain. It retrieves a user's Reddit posts and comments, processes them with LLMs, and generates insightful persona summaries. The app identifies recurring themes, interests, writing style, and sentiment, providing an AI-driven overview of a user's online personality. Designed for research, marketing insights, and content personalization, it features a modular, scalable architecture with clean API integration.",
+  "src": "rock.jpg",
+  "link": "https://i.postimg.cc/N0NMDjsh/Screenshot-17.png",
+  "color": "#5196fd",
+  "githubLink": "https://github.com/Priya-Rathor/reddit_persona_analyzer",
+  "liveLink": "https://priya-rathor.github.io/reddit_persona_analyzer/"
+}
+,
+{
   title: "📚 Book Recommender System – NLP + Vector Search Powered",
   description:
     "Built a smart book recommendation system that uses OpenAI embeddings to vectorize book summaries and user queries. Integrated Pinecone for fast semantic search across a large corpus of book data. Designed an intuitive search interface and used Streamlit to deploy the front-end. Enabled contextual recommendations using user input and content-based filtering, making book discovery personalized and intelligent.",
