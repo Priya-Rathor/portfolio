@@ -37,6 +37,18 @@ const projects = [
 }
 
 ,
+
+{
+  "title": "NeoCareerAI",
+  "description": "A comprehensive AI career assistant built with FastAPI, LangChain, and LangGraph. NeoCareerAI orchestrates workflows like resume creation, job search, interview topic generation, mock interviews, query answering, and tutorial guidance. It combines retrieval-augmented generation, context-aware dialogue, and real-time streaming to help users prepare, apply, and interview with data-driven confidence. Modular, scalable, and extensible for personalized career journeys.",
+  "src": "rock.jpg",
+  "link": "https://i.postimg.cc/3rpHtx1s/Screenshot-19.png",
+  "color": "#5196fd",
+  "githubLink": "https://github.com/Priya-Rathor/NeoCareerAI",
+  "liveLink": "https://priya-rathor.github.io/NeoCareerAI/"
+}
+
+,
 {
   title: "📚 Book Recommender System – NLP + Vector Search Powered",
   description:
