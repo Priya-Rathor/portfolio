@@ -16,7 +16,7 @@ const projects = [
 },
 
 {
-  "title": "reddit_persona_analyzer",
+  "title": "Reddit_persona_analyzer",
   "description": "A Reddit profile analysis tool built with FastAPI, LangGraph, and LangChain. It retrieves a user's Reddit posts and comments, processes them with LLMs, and generates insightful persona summaries. The app identifies recurring themes, interests, writing style, and sentiment, providing an AI-driven overview of a user's online personality. Designed for research, marketing insights, and content personalization, it features a modular, scalable architecture with clean API integration.",
   "src": "rock.jpg",
   "link": "https://i.postimg.cc/N0NMDjsh/Screenshot-17.png",
@@ -24,6 +24,18 @@ const projects = [
   "githubLink": "https://github.com/Priya-Rathor/reddit_persona_analyzer",
   "liveLink": "https://priya-rathor.github.io/reddit_persona_analyzer/"
 }
+,
+
+{
+  "title": "ChatWithDoc",
+  "description": "An AI-powered document interaction tool built with FastAPI, LangChain, and LangGraph. ChatWithDoc allows users to upload documents (PDF, DOCX, TXT) and engage in conversational Q&A, extracting key information with high accuracy. It uses LLMs for semantic search, context-aware responses, and summarization, enabling efficient knowledge retrieval. Designed with a modular architecture for scalability, it supports real-time streaming, clean API integration, and a responsive UI for seamless user experience.",
+  "src": "rock.jpg",
+  "link": "https://i.postimg.cc/rshsnyCR/Screenshot-18.png",
+  "color": "#5196fd",
+  "githubLink": "https://github.com/Priya-Rathor/chatwithDoc",
+  "liveLink": "https://priya-rathor.github.io/chatwithDoc/"
+}
+
 ,
 {
   title: "📚 Book Recommender System – NLP + Vector Search Powered",
